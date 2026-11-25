@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#dff1f7">
+  <title>Undangan Pernikahan Nindia & Hendrik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="opening" id="opening">
+    <div class="opening-card">
+      <div class="floral floral-top">❀</div>
+      <p class="eyebrow">UNDANGAN PERNIKAHAN</p>
+      <p class="small-caps">KELUARGA</p>
+      <h1>Bpk. Tulus &amp; Ibu Ahi Sugiarti</h1>
+      <div class="opening-rule"></div>
+      <p class="opening-to">Kepada Yth.<br><strong id="guestName">Bapak / Ibu / Saudara/i</strong></p>
+      <button id="openInvitation" class="primary-button">Buka Undangan</button>
+      <div class="floral floral-bottom">❀</div>
+    </div>
+  </div>
+
+  <audio id="weddingMusic" loop>
+    <source src="assets/music/lagu.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicButton" class="music-button" aria-label="Putar atau hentikan musik">♫</button>
+
+  <main id="mainContent" class="hidden">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
+        <p class="intro-verse">Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di antara putra-putri kami.</p>
+        <p class="eyebrow">THE WEDDING OF</p>
+        <h2 class="couple-names"><span>Nindia Fauztafika Luwani</span><i>&amp;</i><span>Hendrik Prayugo</span></h2>
+        <p class="date-line">SELASA, 15 DESEMBER 2026</p>
+        <div class="botanical-art" role="img" aria-label="Ilustrasi botani daun dan bunga">
+          <span class="art-caption">a little story<br>of two hearts</span>
+          <svg viewBox="0 0 360 300" aria-hidden="true">
+            <path class="stem" d="M180 280 C155 220 195 160 170 90 C160 60 140 40 120 20"/>
+            <path class="stem" d="M180 280 C210 220 215 175 255 125 C275 100 295 90 320 75"/>
+            <path class="leaf" d="M160 170 C115 145 105 110 115 90 C150 100 170 135 160 170Z"/>
+            <path class="leaf" d="M195 195 C185 150 210 120 240 115 C250 150 225 185 195 195Z"/>
+            <path class="leaf" d="M225 160 C235 120 265 100 290 110 C285 145 255 165 225 160Z"/>
+            <path class="leaf" d="M145 215 C110 190 80 200 65 220 C95 240 125 240 145 215Z"/>
+            <g class="flower" transform="translate(75 75)">
+              <ellipse rx="9" ry="19" cy="-14"/><ellipse rx="9" ry="19" cy="-14" transform="rotate(72)"/>
+              <ellipse rx="9" ry="19" cy="-14" transform="rotate(144)"/><ellipse rx="9" ry="19" cy="-14" transform="rotate(216)"/>
+              <ellipse rx="9" ry="19" cy="-14" transform="rotate(288)"/><circle r="6"/>
+            </g>
+            <g class="flower flower-two" transform="translate(290 55) scale(.8)">
+              <ellipse rx="9" ry="19" cy="-14"/><ellipse rx="9" ry="19" cy="-14" transform="rotate(72)"/>
+              <ellipse rx="9" ry="19" cy="-14" transform="rotate(144)"/><ellipse rx="9" ry="19" cy="-14" transform="rotate(216)"/>
+              <ellipse rx="9" ry="19" cy="-14" transform="rotate(288)"/><circle r="6"/>
+            </g>
+          </svg>
+        </div>
+        <div class="ornament-line"></div>
+        <p class="address">RT. 03 RW. 03, Desa Kabalan<br>Kec. Kanor, Kab. Bojonegoro</p>
+        <a class="primary-button map-button" href="https://www.google.com/maps/search/?api=1&query=RT+03+RW+03+Desa+Kabalan+Kecamatan+Kanor+Bojonegoro" target="_blank" rel="noopener">Lihat Lokasi</a>
+        <div class="scroll-hint">GULIR KE BAWAH <span>↓</span></div>
+      </div>
+    </section>
+
+    <section class="section blessing">
+      <div class="section-inner">
+        <p class="eyebrow">ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATUH</p>
+        <h2>Dengan memohon<br>Ridho dan Rahmat Allah SWT</h2>
+        <p class="body-copy">Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan tasyakuran pernikahan putra-putri kami:</p>
+        <div class="parents-grid">
+          <article class="person">
+            <p class="script-name">Nindia Fauztafika Luwani</p>
+            <p>Putri dari Bpk. Tulus &amp; Ibu Ahi Sugiarti</p>
+            <p class="muted">Ds. Kabalan, Kec. Kanor – Bojonegoro</p>
+          </article>
+          <div class="ampersand">dengan</div>
+          <article class="person">
+            <p class="script-name">Hendrik Prayugo</p>
+            <p>Putra dari Bpk. Sutrisno &amp; Ibu Kasyatirngrum</p>
+            <p class="muted">Ds. Bayem, Kec. Kasembon – Malang</p>
+          </article>
+        </div>
+        <p class="body-copy prayer">Untuk melaksanakan syariat agama-Mu, mengikuti sunnah Rasul-Mu, dalam membentuk rumah tangga yang sakinah, mawaddah wa rahmah dalam ikatan pernikahan.</p>
+      </div>
+    </section>
+
+    <section class="section event-section">
+      <div class="section-inner">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>Hari &amp; Tempat Acara</h2>
+        <div class="event-card">
+          <div class="event-flower">✿</div>
+          <h3>Selasa, 15 Desember 2026</h3>
+          <p class="event-time">Pukul: Siang / Malam</p>
+          <div class="ornament-line"></div>
+          <p>RT. 03 RW. 03<br>Desa Kabalan, Kec. Kanor<br>Kabupaten Bojonegoro</p>
+          <a class="outline-button" href="https://www.google.com/maps/search/?api=1&query=RT+03+RW+03+Desa+Kabalan+Kecamatan+Kanor+Bojonegoro" target="_blank" rel="noopener">Petunjuk Lokasi</a>
+        </div>
+        <div class="countdown-wrap">
+          <p class="eyebrow">MENUJU HARI BAHAGIA</p>
+          <div class="countdown">
+            <div><strong id="days">0</strong><span>Hari</span></div>
+            <div><strong id="hours">0</strong><span>Jam</span></div>
+            <div><strong id="minutes">0</strong><span>Menit</span></div>
+            <div><strong id="seconds">0</strong><span>Detik</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing">
+      <div class="section-inner">
+        <p class="eyebrow">MOHON DOA RESTU</p>
+        <p class="body-copy">Kesan yang mendalam akan terukir di lubuk hati kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami.</p>
+        <p class="body-copy">Atas kehadiran serta do'a restunya, kami sampaikan terima kasih.</p>
+        <p class="arabic-greeting">Wassalamualaikum<br>Warahmatullahi Wabarakatuh</p>
+        <p>Hormat kami,</p>
+        <p class="family-name">Bpk. Tulus &amp; Ibu Ahi Sugiarti</p>
+        <p class="muted">Sekeluarga</p>
+        <h2 class="signature">Nindia <i>&amp;</i> Hendrik</h2>
+      </div>
+    </section>
+    <footer>Undangan Pernikahan Nindia &amp; Hendrik · 2026</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
